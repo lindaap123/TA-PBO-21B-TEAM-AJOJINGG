@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Judul Halaman -->
+    <title>Login Sistem Penilaian Siswa Akhir Semester</title>
+    <!-- Menghubungkan ke file CSS untuk gaya halaman -->
+    <link rel="stylesheet" href="login-style.css" />
+  </head>
+  <body>
+    <!-- Kontainer Utama -->
+    <div class="login-container">
+      <!-- Judul Formulir -->
+      <h2>Sistem Penilaian Siswa</h2>
+      <!-- Formulir Login -->
+      <form id="login-form">
+        <!-- Input untuk Username -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+
+        <!-- Input untuk Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <!-- Tombol Login -->
+        <button type="button" onclick="validateLogin()">Login</button>
+      </form>
+      <!-- Pesan Kesalahan Login -->
+      <p id="login-error" class="error-message"></p>
+
+      <!-- Tautan untuk Pendaftaran -->
+      <div class="register-link">
+        <p>Belum punya akun? <a href="register.html">Daftar di sini</a></p>
+      </div>
+    </div>
+    <!-- Menghubungkan ke file JavaScript untuk validasi login -->
+    <script src="login.js"></script>
+  </body>
+</html>
