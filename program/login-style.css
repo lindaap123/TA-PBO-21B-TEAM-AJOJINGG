@@ -8,7 +8,7 @@
 /* Styling untuk body */
 body {
   font-family: "Arial", sans-serif;
-  background-image: url("asset/backgroun\ login.jpg"); /* Menggunakan gambar latar belakang */
+  background-image: url("backgroun\ login.jpg"); /* Menggunakan gambar latar belakang */
   background-size: cover;
   background-position: center;
   min-height: 100vh;
