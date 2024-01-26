@@ -1,12 +1,14 @@
+/* Reset CSS untuk menghilangkan margin dan padding default pada elemen */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Styling untuk body */
 body {
   font-family: "Arial", sans-serif;
-  background-image: url("asset/backgroun\ login.jpg");
+  background-image: url("asset/backgroun\ login.jpg"); /* Menggunakan gambar latar belakang */
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -18,13 +20,9 @@ body {
   width: 100vw;
 }
 
+/* Styling untuk kontainer login */
 .login-container {
-  background: rgba(
-    255,
-    255,
-    255,
-    0.8
-  ); /* Warna putih dengan transparansi 20% */
+  background: rgba(255, 255, 255, 0.8); /* Warna putih dengan transparansi 20% */
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -33,6 +31,7 @@ body {
   text-align: center;
 }
 
+/* Styling untuk judul halaman login */
 .login-container h2 {
   color: #333;
   padding: 10px 0;
@@ -41,10 +40,12 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
+/* Styling untuk formulir login */
 #login-form {
   padding: 20px;
 }
 
+/* Styling untuk label input */
 label {
   display: block;
   margin: 10px 0 5px;
@@ -52,6 +53,7 @@ label {
   text-align: left;
 }
 
+/* Styling untuk input teks */
 input {
   width: 100%;
   padding: 10px;
@@ -62,6 +64,7 @@ input {
   text-align: left;
 }
 
+/* Styling untuk tombol login */
 button {
   width: 100%;
   padding: 10px;
@@ -74,25 +77,30 @@ button {
   transition: background 0.3s ease;
 }
 
+/* Efek hover pada tombol login */
 button:hover {
   background: rgba(41, 128, 185, 0.8); /* Warna biru dengan transparansi 20% */
 }
 
+/* Styling untuk pesan kesalahan login */
 .error-message {
   color: #e74c3c;
   margin-top: 10px;
 }
 
+/* Styling untuk tautan pendaftaran */
 .register-link {
   margin-top: 15px;
   color: #555;
 }
 
+/* Styling untuk tautan pendaftaran dengan efek hover */
 .register-link a {
   color: #3498db;
   text-decoration: none;
 }
 
+/* Efek hover pada tautan pendaftaran */
 .register-link a:hover {
   text-decoration: underline;
 }
