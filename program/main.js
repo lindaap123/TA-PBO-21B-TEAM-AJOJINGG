@@ -1,3 +1,24 @@
+// # Nilai Akhir Siswa
+
+// ## Pendahuluan
+// Aplikasi ini menghitung nilai akhir siswa berdasarkan nilai UTS, UAS, dan tugas. Aplikasi ini juga menampilkan predikat dan nilai huruf siswa.
+
+// ## Fitur
+// - Menghitung nilai akhir siswa berdasarkan nilai UTS, UAS, dan tugas.
+// - Menampilkan predikat siswa berdasarkan nilai akhir.
+// - Menampilkan nilai huruf siswa berdasarkan nilai akhir.
+// - Mereset formulir input.
+
+// ## Cara Penggunaan
+// 1. Masukkan NIS siswa.
+// 2. Masukkan nama siswa.
+// 3. Masukkan kelas siswa.
+// 4. Masukkan nilai UTS siswa.
+// 5. Masukkan nilai UAS siswa.
+// 6. Masukkan nilai tugas siswa.
+// 7. Klik tombol "Hitung Nilai Akhir".
+// 8. Nilai akhir, predikat, dan nilai huruf siswa akan ditampilkan.
+
 function resetForm() {
   document.getElementById("nis").value = "";
   document.getElementById("nama").value = "";
