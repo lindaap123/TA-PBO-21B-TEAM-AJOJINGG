@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-image: url("asset/backgroun\ login.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+}
+
+.register-container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px;
+  text-align: center;
+}
+
+.register-container h2 {
+  color: #333;
+  padding: 10px 0;
+  background: #3498db;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+#register-form {
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #555;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  text-align: left;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+.success-message {
+  color: #27ae60;
+  margin-top: 10px;
+}
+
+.login-link {
+  margin-top: 15px;
+  color: #555;
+}
+
+.login-link a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
