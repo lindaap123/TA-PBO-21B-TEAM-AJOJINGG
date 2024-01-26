@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-image: url("asset/backgroun\ login.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+}
+
+.login-container {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Warna putih dengan transparansi 20% */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #333;
+  padding: 10px 0;
+  background: rgba(52, 152, 219, 0.8); /* Warna biru dengan transparansi 20% */
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+#login-form {
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #555;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  text-align: left;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: rgba(52, 152, 219, 0.8); /* Warna biru dengan transparansi 20% */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: rgba(41, 128, 185, 0.8); /* Warna biru dengan transparansi 20% */
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+.register-link {
+  margin-top: 15px;
+  color: #555;
+}
+
+.register-link a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
