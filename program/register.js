@@ -15,7 +15,7 @@ function registerUser() {
     document.getElementById("register-success").innerText =
       "Registrasi berhasil!";
   } else {
-    // Jika ada field yang kosong, menampilkan pesan untuk mengisi semua field
+    // Jika ada field yang kosong, menampilkan pesan untuk mengisi semua fieldnya
     document.getElementById("register-success").innerText =
       "Mohon isi semua field";
   }
