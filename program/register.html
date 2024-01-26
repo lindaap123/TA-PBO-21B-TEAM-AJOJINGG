@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Mengatur encoding karakter untuk dokumen -->
+    <meta charset="UTF-8" />
+    <!-- Menetapkan judul dokumen -->
+    <title>Registrasi</title>
+    <!-- Menghubungkan ke stylesheet eksternal untuk tata letak -->
+    <link rel="stylesheet" href="register-style.css" />
+  </head>
+  <body>
+    <!-- Kontainer untuk formulir registrasi -->
+    <div class="register-container">
+      <!-- Judul untuk bagian registrasi -->
+      <h2>Registrasi</h2>
+      <!-- Formulir registrasi dengan bidang input -->
+      <form id="register-form">
+        <label for="new-username">Username:</label>
+        <!-- Bidang input untuk username baru, ditandai sebagai wajib diisi -->
+        <input type="text" id="new-username" name="new-username" required />
+
+        <label for="new-password">Password:</label>
+        <!-- Bidang input untuk password baru, ditandai sebagai wajib diisi -->
+        <input type="password" id="new-password" name="new-password" required />
+
+        <label for="phone-number">Nomor HP:</label>
+        <!-- Bidang input untuk nomor telepon, ditandai sebagai wajib diisi -->
+        <input type="text" id="phone-number" name="phone-number" required />
+
+        <label for="email">Email:</label>
+        <!-- Bidang input untuk email, ditandai sebagai wajib diisi dan dengan validasi jenis email -->
+        <input type="email" id="email" name="email" required />
+
+        <!-- Tombol untuk memicu registrasi pengguna, memanggil fungsi 'registerUser()' -->
+        <button type="button" onclick="registerUser()">Daftar</button>
+      </form>
+      <!-- Area tampilan untuk pesan keberhasilan registrasi -->
+      <p id="register-success" class="success-message"></p>
+
+      <!-- Tautan ke halaman login untuk pengguna yang sudah memiliki akun -->
+      <div class="login-link">
+        <p>Sudah punya akun? <a href="login.html">Login di sini</a></p>
+      </div>
+    </div>
+    <!-- Sertakan file JavaScript eksternal untuk fungsionalitas tambahan -->
+    <script src="register.js"></script>
+  </body>
+</html>
