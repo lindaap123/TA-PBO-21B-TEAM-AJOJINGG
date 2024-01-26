@@ -1,0 +1,105 @@
+/* Set margin dan padding menjadi 0 untuk semua elemen, dan gunakan box-sizing untuk box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+  font-family: "Arial", sans-serif;
+  background-image: url("backgroun\ login.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+}
+
+/* Gaya untuk kontainer registrasi */
+.register-container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px;
+  text-align: center;
+}
+
+/* Gaya untuk heading di dalam kontainer registrasi */
+.register-container h2 {
+  color: #333;
+  padding: 10px 0;
+  background: #3498db;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Gaya untuk formulir registrasi */
+#register-form {
+  padding: 20px;
+}
+
+/* Gaya untuk label dalam formulir */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #555;
+  text-align: left;
+}
+
+/* Gaya untuk bidang input */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  text-align: left;
+}
+
+/* Gaya untuk tombol registrasi */
+button {
+  width: 100%;
+  padding: 8px;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+/* Efek hover untuk tombol registrasi */
+button:hover {
+  background: #2980b9;
+}
+
+/* Gaya untuk pesan keberhasilan */
+.success-message {
+  color: #27ae60;
+  margin-top: 10px;
+}
+
+/* Gaya untuk tautan login */
+.login-link {
+  margin-top: 15px;
+  color: #555;
+}
+
+/* Gaya untuk tautan login anchor */
+.login-link a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+/* Efek hover untuk tautan login anchor */
+.login-link a:hover {
+  text-decoration: underline;
+}
