@@ -1,9 +1,11 @@
+/* Set margin and padding to 0 for all elements, and use border-box for box sizing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Style for the body */
 body {
   font-family: "Arial", sans-serif;
   background-image: url("asset/backgroun\ login.jpg");
@@ -18,6 +20,7 @@ body {
   width: 100vw;
 }
 
+/* Styling for the registration container */
 .register-container {
   background: #fff;
   border-radius: 10px;
@@ -27,6 +30,7 @@ body {
   text-align: center;
 }
 
+/* Styling for the heading inside the registration container */
 .register-container h2 {
   color: #333;
   padding: 10px 0;
@@ -35,10 +39,12 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
+/* Styling for the registration form */
 #register-form {
   padding: 20px;
 }
 
+/* Styling for labels in the form */
 label {
   display: block;
   margin: 10px 0 5px;
@@ -46,6 +52,7 @@ label {
   text-align: left;
 }
 
+/* Styling for input fields */
 input {
   width: 100%;
   padding: 10px;
@@ -56,6 +63,7 @@ input {
   text-align: left;
 }
 
+/* Styling for the registration button */
 button {
   width: 100%;
   padding: 8px;
@@ -68,25 +76,30 @@ button {
   transition: background 0.3s ease;
 }
 
+/* Hover effect for the registration button */
 button:hover {
   background: #2980b9;
 }
 
+/* Styling for success message */
 .success-message {
   color: #27ae60;
   margin-top: 10px;
 }
 
+/* Styling for the login link */
 .login-link {
   margin-top: 15px;
   color: #555;
 }
 
+/* Styling for the login link anchor */
 .login-link a {
   color: #3498db;
   text-decoration: none;
 }
 
+/* Hover effect for the login link anchor */
 .login-link a:hover {
   text-decoration: underline;
 }
