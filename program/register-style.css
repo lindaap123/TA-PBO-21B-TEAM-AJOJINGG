@@ -1,11 +1,11 @@
-/* Set margin and padding to 0 for all elements, and use border-box for box sizing */
+/* Set margin dan padding menjadi 0 untuk semua elemen, dan gunakan box-sizing untuk box model */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Style for the body */
+/* Gaya untuk body */
 body {
   font-family: "Arial", sans-serif;
   background-image: url("asset/backgroun\ login.jpg");
@@ -20,7 +20,7 @@ body {
   width: 100vw;
 }
 
-/* Styling for the registration container */
+/* Gaya untuk kontainer registrasi */
 .register-container {
   background: #fff;
   border-radius: 10px;
@@ -30,7 +30,7 @@ body {
   text-align: center;
 }
 
-/* Styling for the heading inside the registration container */
+/* Gaya untuk heading di dalam kontainer registrasi */
 .register-container h2 {
   color: #333;
   padding: 10px 0;
@@ -39,12 +39,12 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
-/* Styling for the registration form */
+/* Gaya untuk formulir registrasi */
 #register-form {
   padding: 20px;
 }
 
-/* Styling for labels in the form */
+/* Gaya untuk label dalam formulir */
 label {
   display: block;
   margin: 10px 0 5px;
@@ -52,7 +52,7 @@ label {
   text-align: left;
 }
 
-/* Styling for input fields */
+/* Gaya untuk bidang input */
 input {
   width: 100%;
   padding: 10px;
@@ -63,7 +63,7 @@ input {
   text-align: left;
 }
 
-/* Styling for the registration button */
+/* Gaya untuk tombol registrasi */
 button {
   width: 100%;
   padding: 8px;
@@ -76,30 +76,30 @@ button {
   transition: background 0.3s ease;
 }
 
-/* Hover effect for the registration button */
+/* Efek hover untuk tombol registrasi */
 button:hover {
   background: #2980b9;
 }
 
-/* Styling for success message */
+/* Gaya untuk pesan keberhasilan */
 .success-message {
   color: #27ae60;
   margin-top: 10px;
 }
 
-/* Styling for the login link */
+/* Gaya untuk tautan login */
 .login-link {
   margin-top: 15px;
   color: #555;
 }
 
-/* Styling for the login link anchor */
+/* Gaya untuk tautan login anchor */
 .login-link a {
   color: #3498db;
   text-decoration: none;
 }
 
-/* Hover effect for the login link anchor */
+/* Efek hover untuk tautan login anchor */
 .login-link a:hover {
   text-decoration: underline;
 }
